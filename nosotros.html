@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cooperativa Nexus Estudiantil - Nosotros</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Estilos específicos para la sección de nosotros */
+    .equipo {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .card {
+      display: flex;
+      align-items: center;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+      padding: 15px;
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .card img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-right: 15px;
+      border: 3px solid #003366;
+    }
+    .card-content h3 {
+      color: #003366;
+      margin-bottom: 5px;
+    }
+    .card-content h4 {
+      color: #0059b3;
+      margin-bottom: 8px;
+      font-size: 14px;
+    }
+    .card-content p {
+      font-size: 14px;
+      color: #333;
+      line-height: 1.4;
+    }
+  </style>
+</head>
+<body>
+  <!-- 🔹 Navbar con todos los enlaces -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="tasas.html">Tasas y Precios</a></li>
+      <li><a href="tarifas.html">Tarifas</a></li>
+      <li><a href="documentacion.html">Documentación</a></li>
+      <li><a href="servicios.html">Servicios</a></li>
+      <li><a href="beneficios.html">Beneficios</a></li>
+      <li><a href="prestamo.html">Préstamo</a></li>
+      <li><a href="requisitos.html">Requisitos</a></li>
+      <li><a href="portafolio.html">Portafolio</a></li>
+      <li><a href="nosotros.html">Nosotros</a></li>
+      <li><a href="contacto.html">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <h1>Nosotros</h1>
+    <p>Conoce al equipo que lidera la Cooperativa Nexus Estudiantil:</p>
+
+    <div class="equipo">
+      <!-- David -->
+      <div class="card">
+        <img src="fotos/1.jpeg" alt="David">
+        <div class="card-content">
+          <h3>David Santiago Rojas Walteros</h3>
+          <h4>Líder de la Cooperativa</h4>
+          <p>Electo por los socios, tecnólogo en Servicios y Operaciones Financieras (SENA). 
+          Experiencia como gerente en Banco de Bogotá, destacándose en trabajo en equipo, 
+          ampliación de contratos y financiamiento de colegios.</p>
+        </div>
+      </div>
+
+      <!-- Emmilie -->
+      <div class="card">
+        <img src="fotos/2.jpeg" alt="Emmilie">
+        <div class="card-content">
+          <h3>Emmilie Johanna Fuquene Paez</h3>
+          <h4>Gerente</h4>
+          <p>Electa por los socios gracias a su liderazgo y comunicación. 
+          Técnica en Servicios Comerciales y Financieros (SENA), con experiencia como asesora 
+          en cooperativa de ahorro y crédito, optimizando procesos y visión estratégica.</p>
+        </div>
+      </div>
+
+      <!-- Michel -->
+      <div class="card">
+        <img src="fotos/3.jpeg" alt="Michel">
+        <div class="card-content">
+          <h3>Michel Juliana López Rodríguez</h3>
+          <h4>Líder de Marketing</h4>
+          <p>5 años de experiencia en campañas de comunicación y posicionamiento de marca en el sector educativo y comercial. 
+          Ha fortalecido la identidad institucional y la participación estudiantil mediante estrategias innovadoras.</p>
+        </div>
+      </div>
+
+      <!-- Emily -->
+      <div class="card">
+        <img src="fotos/4.jpeg" alt="Emily Tatiana">
+        <div class="card-content">
+          <h3>Emily Tatiana Diaz Ríos</h3>
+          <h4>Asesora Comercial</h4>
+          <p>Graduada en la Universidad Agustiniana, con experiencia en Semingenería como asesora financiera (3 años). 
+          Especialista en ofrecer soluciones personalizadas: créditos, ahorro e inversiones.</p>
+        </div>
+      </div>
+
+      <!-- Wendy -->
+      <div class="card">
+        <img src="fotos/5.jpeg" alt="Wendy Johana">
+        <div class="card-content">
+          <h3>Wendy Johana Orjuela Guerrero</h3>
+          <h4>Servicio al Cliente</h4>
+          <p>Electa por los socios por su compromiso y dedicación. 
+          Con formación en gestión de usuarios, ha trabajado en procesos administrativos fortaleciendo la comunicación con la comunidad educativa y mejorando la calidad del servicio.</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 Cooperativa Nexus Estudiantil</p>
+  </footer>
+</body>
+</html>
