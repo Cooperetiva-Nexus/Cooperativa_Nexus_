@@ -4,33 +4,130 @@
   <meta charset="UTF-8">
   <title>Tasas y Precios</title>
   <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    main {
+      text-align: center;
+    }
+    h2 {
+      margin-top: 30px;
+      color: #333;
+    }
+    table {
+      margin: 20px auto;
+      border-collapse: collapse;
+      width: 60%;
+    }
+    th, td {
+      border: 1px solid #333;
+      padding: 8px;
+      text-align: center;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+  </style>
 </head>
 <body>
- <nav class="navbar">
-  <ul>
-    <li><a href="index.html">Inicio</a></li>
-    <li><a href="nosotros.html">Nosotros</a></li>
-    <li><a href="tasas.html">Tasas y Precios</a></li>
-    <li><a href="documentacion.html">Documentación</a></li>
-    <li><a href="servicios.html">Servicios</a></li>
-    <li><a href="beneficios.html">Beneficios</a></li>
-    <li><a href="prestamo.html">Préstamo</a></li>
-  </ul>
-</nav>
+  <nav class="navbar">
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="nosotros.html">Nosotros</a></li>
+      <li><a href="tasas.html">Tasas y Precios</a></li>
+      <li><a href="documentacion.html">Documentación</a></li>
+      <li><a href="servicios.html">Servicios</a></li>
+      <li><a href="beneficios.html">Beneficios</a></li>
+      <li><a href="prestamo.html">Préstamo</a></li>
+    </ul>
+  </nav>
 
-<CENter>
   <main>
     <h1>Tasas y Precios</h1>
     <p>Las tasas de interés dependen del monto solicitado:</p>
-    <table border="1" cellpadding="10" cellspacing="0">
-      <tr><th>Monto del préstamo</th><th>Tasa de interés anual</th></tr>
-      <tr><td>Hasta $5.000.000</td><td>15%</td></tr>
-      <tr><td>$5.000.001 - $10.000.000</td><td>18%</td></tr>
-      <tr><td>$10.000.001 - $20.000.000</td><td>20%</td></tr>
-      <tr><td>Más de $20.000.000</td><td>25%</td></tr>
+
+    <!-- Tabla 1 -->
+    <h2>Tasa Anual: 16.8% (Monto $100.000 – $500.000)</h2>
+    <table>
+      <tr><th>Monto</th><th>Interés</th></tr>
+      <tr><td>$100.000</td><td>$1.400</td></tr>
+      <tr><td>$200.000</td><td>$2.800</td></tr>
+      <tr><td>$300.000</td><td>$5.000</td></tr>
+      <tr><td>$400.000</td><td>$6.000</td></tr>
+      <tr><td>$500.000</td><td>$8.400</td></tr>
     </table>
-    </CENter>
+
+    <!-- Tabla 2 -->
+    <h2>Tasa Anual: 15.6% (Monto $600.000 – $1.000.000)</h2>
+    <table>
+      <tr><th>Monto</th><th>Interés</th></tr>
+      <tr><td>$600.000</td><td>$9.180</td></tr>
+      <tr><td>$800.000</td><td>$11.400</td></tr>
+      <tr><td>$1.000.000</td><td>$13.000</td></tr>
+    </table>
+
+    <!-- Tabla 3 -->
+    <h2>Tasa Anual: 17.2% (Monto $1.100.000 – $2.000.000)</h2>
+    <table>
+      <tr><th>Monto</th><th>Interés</th></tr>
+      <tr><td>$1.100.000</td><td>$13.400</td></tr>
+      <tr><td>$1.200.000</td><td>$15.000</td></tr>
+      <tr><td>$1.300.000</td><td>$16.400</td></tr>
+      <tr><td>$1.400.000</td><td>$18.000</td></tr>
+      <tr><td>$1.500.000</td><td>$19.800</td></tr>
+      <tr><td>$1.600.000</td><td>$21.400</td></tr>
+      <tr><td>$1.700.000</td><td>$22.600</td></tr>
+      <tr><td>$1.800.000</td><td>$23.800</td></tr>
+      <tr><td>$1.900.000</td><td>$22.400</td></tr>
+      <tr><td>$2.000.000</td><td>$24.400</td></tr>
+    </table>
+
+    <!-- Tabla 4 -->
+    <h2>Tasa Anual: 14.4% (Monto $2.100.000 – $10.000.000)</h2>
+    <table>
+      <tr><th>Monto</th><th>Interés</th></tr>
+      <tr><td>$2.100.000</td><td>$25.200</td></tr>
+      <tr><td>$2.200.000</td><td>$26.000</td></tr>
+      <tr><td>$2.300.000</td><td>$26.800</td></tr>
+      <tr><td>$2.400.000</td><td>$27.600</td></tr>
+      <tr><td>$2.500.000</td><td>$28.400</td></tr>
+      <tr><td>$2.600.000</td><td>$29.200</td></tr>
+      <tr><td>$2.700.000</td><td>$30.000</td></tr>
+      <tr><td>$2.800.000</td><td>$30.800</td></tr>
+      <tr><td>$2.900.000</td><td>$31.600</td></tr>
+      <tr><td>$3.000.000</td><td>$32.400</td></tr>
+      <!-- Aquí seguirías hasta $10.000.000 -->
+    </table>
+
+    <!-- Tabla 5 -->
+
+    <h2>Rango: $2.100.000 – $4.000.000 (Tasa anual 12%)</h2>
+    <table border="1" cellpadding="10" cellspacing="0">
+      <tr><th>Monto del préstamo</th><th>Valor cuota</th></tr>
+      <tr><td>$2.100.000</td><td>$21.000</td></tr>
+      <tr><td>$2.200.000</td><td>$22.000</td></tr>
+      <tr><td>$2.300.000</td><td>$23.000</td></tr>
+      <tr><td>$2.400.000</td><td>$24.000</td></tr>
+      <tr><td>$2.500.000</td><td>$25.000</td></tr>
+      <tr><td>$2.600.000</td><td>$26.000</td></tr>
+      <tr><td>$2.700.000</td><td>$27.000</td></tr>
+      <tr><td>$2.800.000</td><td>$28.000</td></tr>
+      <tr><td>$2.900.000</td><td>$29.000</td></tr>
+      <tr><td>$3.000.000</td><td>$30.000</td></tr>
+      <tr><td>$3.100.000</td><td>$31.000</td></tr>
+      <tr><td>$3.200.000</td><td>$32.000</td></tr>
+      <tr><td>$3.300.000</td><td>$33.000</td></tr>
+      <tr><td>$3.400.000</td><td>$34.000</td></tr>
+      <tr><td>$3.500.000</td><td>$35.000</td></tr>
+      <tr><td>$3.600.000</td><td>$36.000</td></tr>
+      <tr><td>$3.700.000</td><td>$37.000</td></tr>
+      <tr><td>$3.800.000</td><td>$38.000</td></tr>
+      <tr><td>$3.900.000</td><td>$39.000</td></tr>
+      <tr><td>$4.000.000</td><td>$40.000</td></tr>
+    </table>
   </main>
+</center>
 
   <footer>
     <p>© 2025 Cooperativa Nexus Estudiantil</p>
